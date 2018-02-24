@@ -80,7 +80,7 @@ public class Utils {
         //byte[] data = baos.toByteArray();
 
 
-        StorageReference storageRef = FirebaseStorage.getInstance().getReferenceFromUrl("gs://mdbsocials-c8ba2.appspot.com");
+        StorageReference storageRef = FirebaseStorage.getInstance().getReference();
 
 
         final String id = databaseReference.child("SocialsApp").push().getKey();
