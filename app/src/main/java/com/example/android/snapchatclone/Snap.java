@@ -14,4 +14,6 @@ public class Snap {
         this.caption = caption;
         this.snapURL = snapURL;
     }
+    
+    public Snap(){}
 }
