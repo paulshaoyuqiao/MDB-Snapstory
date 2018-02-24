@@ -15,5 +15,5 @@ public class Snap {
         this.snapURL = snapURL;
     }
     
-    public Snap(){}
+    public Snap(){};
 }
