@@ -66,7 +66,7 @@ public class NewSnapActivity extends AppCompatActivity implements View.OnClickLi
             Utils.UtilshowPicChooser(NewSnapActivity.this,pickImageREQUEST);
         }
         //if the clicked button is to upload all the information
-        else if (view == upload) {
+        else if (view == save) {
             //Compared with the last-week version, this one uses the Utils class to generalize
             //the transmit method (because originally it takes a huge space (many lines) in the
             //newPostActivity class.
